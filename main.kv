@@ -5,7 +5,7 @@ GridLayout:
 
     #The left column wil be for uploading images and taggin
     BoxLayout:
-        orientation: 'vertical;
+        orientation: 'vertical'
         spacing: 10
         padding: 10
 
@@ -13,9 +13,9 @@ GridLayout:
             id: display_image
             source: ''
 
-        Buttons:
+        Button:
             text: 'Upload Image'
-            on_release: app.chose_file()
+            on_release: app.chose_file
         
         TextInput:
             id: tag_input

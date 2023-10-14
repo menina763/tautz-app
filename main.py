@@ -28,12 +28,8 @@ from kivy.uix.filechooser import FileChooserListView
 #This method will import the main container for user interface
 class TautzApp(App):                        #Create a TautzApp class that inherits from the App class
     def build(self):                         #Define the build method (which will use its own paramaters)
-        Builder.load_file('main.kv')
-        return RootWidget()                 #Return an instance of the RootWidget class to make it the main widget of the app
+        return Builder.load_file('main.kv')
 
-#
-class RootWidget(BoxLayout):                #Set up the RootWidget class (inherited from BoxLayout), but just make it blank.
-    pass
 
 if __name__ == '__main__':                    #If we're running the  main program, we'll start the app!              
     TautzApp().run()
