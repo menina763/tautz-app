@@ -17,6 +17,11 @@ import kivy
 from kivy.lang import Builder
 from kivy.app import App                    #From the Kivy App module import the base class App to create the application
 from kivy.uix.boxlayout import BoxLayout    #From the Kivy UIX Boxlayout module import the BoxLayout class to make flexible layouts for widgets
+from kivy.uix.image import Image
+from kivy.uix.textinput import TextInput
+from kivy.uix.button import Button
+from kivy.uix.label import Label
+from kivy.uix.filechooser import FileChooserListView
 
 ##SETTING UP METHODS
 
